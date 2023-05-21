@@ -34,13 +34,12 @@ The original iteration time is 1000000, we change it to 10000 due to the lack of
 vkitti2:
 ```
 python main.py --config example_configs/config_vkitti2_Scene06.txt
-tensorboard --logdir=example_weights/summaries --port=6006
+
 ```
 
 KITTI:
 ```
 python main.py --config example_configs/config_kitti_0006_example_train.txt
-tensorboard --logdir=example_weights/summaries --port=6006
 ```
 
 To train on normal GPU and CPU:
@@ -68,4 +67,9 @@ To make a full render pass over all selected images : 'render_only=True'
 - Render all dynamic parts : 'obj_only=True' & 'white_bkgd=True'
 ```
 python main.py --config example_configs/config_kitti_0006_example_render.txt
+```
+
+## Result
+```
+tensorboard --logdir=example_weights/summaries --port=6006
 ```
