@@ -34,7 +34,6 @@ The original iteration time is 1000000, we change it to 10000 due to the lack of
 vkitti2:
 ```
 python main.py --config example_configs/config_vkitti2_Scene06.txt
-
 ```
 
 KITTI:
