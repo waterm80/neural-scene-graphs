@@ -1,6 +1,4 @@
-# Neural Scene Graphs for Dynamic Scene (CVPR 2021)
-
-![alt text](https://light.princeton.edu/wp-content/uploads/2021/02/scene_graph_isometric_small.png)
+# Implementation
 
 ### [Project Page](https://light.princeton.edu/publication/neural-scene-graphs) | [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Ost_Neural_Scene_Graphs_for_Dynamic_Scenes_CVPR_2021_paper.html)
 
